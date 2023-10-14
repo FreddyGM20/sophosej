@@ -1,0 +1,62 @@
+.main {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  color: black;
+}
+.main .backphoto {
+  height: 200px;
+  width: 100%;
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.main .backphoto img {
+  position: absolute;
+  bottom: -110px;
+  height: 200px;
+  border-radius: 50%;
+  border:10px solid rgb(206, 206, 206);
+}
+
+.main .panel {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  justify-content: end;
+  align-items: center;
+  margin-top: 130px;
+}
+.main .panel .texto {
+  display: flex;
+  font-size: 25px;
+  width: 60%;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+}
+.main .panel .icon {
+  display: flex;
+  gap: 50px;
+  font-size: 50px;
+}
+.main .panel .icon button{
+  width: 100px;
+  height: 50px;
+  font-size: 40px;
+  background-color: transparent;
+  color: grey;
+  border: none;
+  cursor: pointer;
+}
+.main .panel .icon .icono:hover {
+  color: rgb(110, 187, 110);
+}
+
